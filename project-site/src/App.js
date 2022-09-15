@@ -1,12 +1,12 @@
 import './App.css';
+import Home from './Home';
 import Navbar from './Navbar';
-import crow from './images/crow.png';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <img src={crow} alt="crow logo" />
+      <Home />
     </div>
   );
 }
