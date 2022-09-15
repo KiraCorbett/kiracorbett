@@ -1,3 +1,10 @@
+.elements {
+  background-image: url('./images/gbw-bike.jpg');
+  height: auto;
+  width: auto;
+  position: relative;
+}
+
 h1, h3, p {
   color: #ffff;
   padding: 20px;
@@ -7,4 +14,12 @@ h1, h3, p {
   display: inline-block;
   text-align: center;
   margin: 20px;
+}
+
+.awards, .skills {
+  display: inline-block;
+}
+
+.about {
+  display: block;
 }

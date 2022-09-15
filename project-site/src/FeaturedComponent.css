@@ -1,0 +1,18 @@
+div.gallery {
+  border: 1px solid #777;
+}
+
+div.gallery:hover {
+  border: 1px solid #ccc;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.projects {
+  padding: 0 6px;
+  float: left;
+  width: 25.99999%;
+}
