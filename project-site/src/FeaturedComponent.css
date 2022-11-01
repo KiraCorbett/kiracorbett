@@ -1,14 +1,12 @@
 div.gallery {
   border: 1px solid #777;
+  margin: 43px;
+  width: 25.99999%;
+  float: left;
 }
 
 div.gallery:hover {
   border: 1px solid #ccc;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
 }
 
 .projects {
