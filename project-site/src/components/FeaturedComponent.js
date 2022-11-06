@@ -1,10 +1,11 @@
 import crow from '../images/crow.png';
 import './FeaturedComponent.css';
 
-const FeaturedComponent = () => {
+const FeaturedComponent = ({ image, title }) => {
   return ( 
     <div className="gallery">
-      <img src={crow} alt="crow logo" />
+      <h3>{title}</h3>
+      <img src={image} alt="project" />
     </div>
    );
 }

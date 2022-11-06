@@ -1,16 +1,16 @@
 div.gallery {
   border: 1px solid #777;
   margin: 43px;
-  width: 25.99999%;
-  float: left;
+  width: 23.99999%;
+  height: 500px;
+  display: inline-block;
 }
 
 div.gallery:hover {
   border: 1px solid #ccc;
 }
 
-.projects {
-  padding: 0 6px;
-  float: left;
-  width: 25.99999%;
+img {
+  width: 100%;
+  height: 60%;
 }

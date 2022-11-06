@@ -1,4 +1,6 @@
 import bike from './images/gbw-bike.jpg';
+import crow from './images/crow.png';
+import background from './images/background.jpg';
 import FeaturedComponent from './components/FeaturedComponent';
 
 import './Home.css'
@@ -13,9 +15,9 @@ const Home = () => {
       <LandingImage />
       <div className="featured">
         <h1>Featured Projects</h1>
-        <FeaturedComponent />
-        <FeaturedComponent />
-        <FeaturedComponent />
+        <FeaturedComponent image={bike} title={"bike"}/>
+        <FeaturedComponent image={crow} title={"bike"}/>
+        <FeaturedComponent image={background} title={"background"}/>
       </div>
       <div className="skills">
         <h3>Dev</h3>
