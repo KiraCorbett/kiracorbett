@@ -2,6 +2,7 @@ import bike from './images/gbw-bike.jpg';
 import FeaturedComponent from './FeaturedComponent';
 
 import './Home.css'
+import LandingImage from './LandingImage';
 
 const Home = () => {
   return (
@@ -9,11 +10,7 @@ const Home = () => {
     {/* <div className="landing">
       <img src={bike} alt="bike"/>
     </div> */}
-      <div className="elements">
-        <h1>Software Developer</h1>
-        <h1>Athlete</h1>
-        <h1>HCI Researcher</h1>
-      </div>
+      <LandingImage />
       <div className="featured">
         <h1>Featured Projects</h1>
         <FeaturedComponent />
