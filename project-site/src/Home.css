@@ -1,9 +1,20 @@
-.landing img {
-  width: 1350px;
-  height: auto;
+.elements {
+  /* width: 1350px;
+  height: auto; */
+  background-image: url("images/background.jpg");
+  margin: auto;
+  padding: 150px;
+  display: flex;
 }
 
-h1, h3, p {
+.elements h1 {
+  margin: auto;
+  padding: 75px;
+  display: flex;
+  color: white;
+}
+
+/* h1, h3, p {
   color: #ffff;
   padding: 20px;
 }
@@ -20,4 +31,4 @@ h1, h3, p {
 
 .about {
   display: block;
-}
+} */

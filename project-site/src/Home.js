@@ -6,13 +6,13 @@ import './Home.css'
 const Home = () => {
   return (
     <div className="home">
-    <div className="landing">
+    {/* <div className="landing">
       <img src={bike} alt="bike"/>
-    </div>
+    </div> */}
       <div className="elements">
         <h1>Software Developer</h1>
-        <h1>HCI Researcher</h1>
         <h1>Athlete</h1>
+        <h1>HCI Researcher</h1>
       </div>
       <div className="featured">
         <h1>Featured Projects</h1>
