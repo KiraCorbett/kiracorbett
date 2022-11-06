@@ -1,8 +1,8 @@
 import bike from './images/gbw-bike.jpg';
-import FeaturedComponent from './FeaturedComponent';
+import FeaturedComponent from './components/FeaturedComponent';
 
 import './Home.css'
-import LandingImage from './LandingImage';
+import LandingImage from './components/LandingImage';
 
 const Home = () => {
   return (

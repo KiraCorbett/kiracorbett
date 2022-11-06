@@ -1,4 +1,4 @@
-import crow from './images/crow.png';
+import crow from '../images/crow.png';
 import './FeaturedComponent.css';
 
 const FeaturedComponent = () => {
