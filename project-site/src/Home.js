@@ -1,10 +1,10 @@
-import bike from './images/gbw-bike.jpg';
+import robots from './images/robots.png';
+import rhizome from './images/rhizome.jpg';
 import crow from './images/crow.png';
-import background from './images/background.jpg';
-import FeaturedComponent from './components/FeaturedComponent';
 
 import './Home.css'
 import LandingImage from './components/LandingImage';
+import FeaturedComponent from './components/FeaturedComponent';
 
 const Home = () => {
   return (
@@ -15,9 +15,9 @@ const Home = () => {
       <LandingImage />
       <div className="featured">
         <h1>Featured Projects</h1>
-        <FeaturedComponent image={bike} title={"bike"}/>
-        <FeaturedComponent image={crow} title={"bike"}/>
-        <FeaturedComponent image={background} title={"background"}/>
+        <FeaturedComponent image={robots} title={"Synthesis: An Autodesk Technology"} subtitle={"Built by students, for students, Synthesis is an open source simulator used to design, test, and experiment with 3D CAD models."} skills={"C# | Python | Unity | UX | Project Management"}/>
+        <FeaturedComponent image={rhizome} title={"Rhizome: Towards and Information Centric OS Shell"} subtitle={"Rhizome uses different interactions than traditional desktop systems like WIMP. Results indicate people were 60% more efficient on average."} skills={"Flutter SDK | Dart | User Research | Human-Computer Interaction"}/>
+        <FeaturedComponent image={crow} title={"Entrepreneurship"} subtitle={"Starting my first eCommerce at age 12 to working at a non-profit, Dirty Freehub creating route guides for cyclists to putting on the local race Best of Both."} skills={"Adobe Premiere Pro & Photoshop | Content Creation"}/>
       </div>
       <div className="skills">
         <h3>Dev</h3>
