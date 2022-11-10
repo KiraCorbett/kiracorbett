@@ -13,7 +13,7 @@ const Home = () => {
     {/* <div className="landing">
       <img src={bike} alt="bike"/>
     </div> */}
-      <LandingImage />
+      <LandingImage left={"Design"} mid={"HCI Researcher"} right={"Developer"}/>
       <div className="featured">
         <h1>Featured Projects</h1>
         <FeaturedComponent image={robots} title={"Synthesis: An Autodesk Technology"} subtitle={"Built by students, for students, Synthesis is an open source simulator used to design, test, and experiment with 3D CAD models."} skills={"C# | Python | Unity | UX | Project Management"}/>
@@ -24,6 +24,15 @@ const Home = () => {
         <h3>Dev</h3>
         <h3>Design</h3>
         <h3>eCommerce</h3>
+      </div>
+      <div className="project1">
+        <LandingImage />
+      </div>
+      <div className="project2">
+        <LandingImage />
+      </div>
+      <div className="project3">
+        <LandingImage />
       </div>
       <div className="awards">
         <h1>Awards & Publications</h1>
