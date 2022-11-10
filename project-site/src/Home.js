@@ -1,6 +1,7 @@
 import robots from './images/robots.png';
 import rhizome from './images/rhizome.jpg';
 import crow from './images/crow.png';
+import gbwBike from './images/gbw-bike.jpg';
 
 import './Home.css'
 import LandingImage from './components/LandingImage';
@@ -25,7 +26,11 @@ const Home = () => {
         <h3>eCommerce</h3>
       </div>
       <div className="awards">
-        <h3>Awards & Publications</h3>
+        <h1>Awards & Publications</h1>
+        <FeaturedComponent image={gbwBike} title="2022 Oregon XC Champion" subtitle={"Cross Country Mountain Biking"}/>
+        <FeaturedComponent image={gbwBike} title="National Runner-Up Aspirations in Computing" subtitle={"National Center for Women in Information Technology"} skills={"2019"}/>
+        <FeaturedComponent image={gbwBike} title="Scholar" subtitle={"Grace Hopper Celebration"} skills={"2019"}/>
+        <FeaturedComponent image={gbwBike} title="Aspirations in Computing" subtitle={"National Center for Women in Information Technology"} skills={"2016 | 2017 | 2018 | 2019"}/>
       </div>
       <div className="about">
         <p>Some lorem ipsum text for now because that works. Lorem ipsum.</p>
