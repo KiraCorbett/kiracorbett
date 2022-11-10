@@ -1,7 +1,7 @@
 .elements {
   /* width: 1350px;
-  height: auto; */
-  background-image: url("../images/wallpaper.jpg");
+  height: auto; 
+  background-image: url("../images/wallpaper.jpg"); */
   margin: auto;
   padding-top: 100px;
   padding-bottom: 150px;
@@ -11,5 +11,5 @@
 .elements h1 {
   margin: auto;
   padding: 125px;
-  color: black;
+  color: white;
 }

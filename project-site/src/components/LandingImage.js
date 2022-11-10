@@ -1,8 +1,8 @@
 import './LandingImage.css';
 
-const LandingImage = ({ left, mid, right }) => {
+const LandingImage = ({ image, left, mid, right }) => {
   return (
-    <div className="elements">
+    <div className="elements" style={{ backgroundImage:`url(${image})` } }>
         <h1>{left}</h1>
         <h1>{mid}</h1>
         <h1>{right}</h1>
