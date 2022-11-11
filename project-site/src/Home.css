@@ -1,10 +1,33 @@
-.featured {
-  margin-top: 150px;
-}
-
 h1, h3, p {
   color: #ffff;
   padding: 20px;
+}
+
+.project1 {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  contain: content;
+}
+
+.project1-video {
+  float: left;
+  margin: auto 50px;
+}
+
+.project1-info {
+  width: 560px;
+  height: auto;
+  position: relative;
+  float: right;
+  margin: 40px;
+}
+
+.project1-info p1 {
+  position: absolute;
+}
+
+.project-info p2, p3 {
+  position: absolute;
 }
 
 /* .skills h3 {

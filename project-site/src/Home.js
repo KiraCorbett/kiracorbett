@@ -9,27 +9,50 @@ import './Home.css'
 import LandingImage from './components/LandingImage';
 import FeaturedComponent from './components/FeaturedComponent';
 
+import { Image, StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  imageStyle: {
+    width: 700,
+    height: 400,
+  }
+})
+
+
 const Home = () => {
   return (
     <div className="home">
-    {/* <div className="landing">
-      <img src={bike} alt="bike"/>
-    </div> */}
       <LandingImage image={background} left={"Design"} mid={"HCI Researcher"} right={"Developer"}/>
-      <div className="featured">
+
+      <div className="projects">
         <h1>Featured Projects</h1>
+          
+        <div className="project1">
+          <h3>Synthesis: An Autodesk Technology</h3>
+          <div className="project1-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MEW_JCmHTo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div className="project1-info">
+            <p className="p1">Built by students, for students, Synthesis is an open source simulator used to design, test, and experiment with 3D CAD models.</p>
+            <p className="p2">BUTTON TO WEBSITE</p>
+            <p className="p3">C# | Python | Unity | UX | Project Management</p>
+          </div>
+        </div>
+
+      </div>
+
+        {/* <div>
         <FeaturedComponent image={robots} title={"Synthesis: An Autodesk Technology"} subtitle={"Built by students, for students, Synthesis is an open source simulator used to design, test, and experiment with 3D CAD models."} skills={"C# | Python | Unity | UX | Project Management"}/>
         <FeaturedComponent image={rhizome} title={"Rhizome: Towards and Information Centric OS Shell"} subtitle={"Rhizome uses different interactions than traditional desktop systems like WIMP. Results indicate people were 60% more efficient on average."} skills={"Flutter SDK | Dart | User Research | Human-Computer Interaction"}/>
         <FeaturedComponent image={crow} title={"Entrepreneurship"} subtitle={"Starting my first eCommerce at age 12 to working at a non-profit, Dirty Freehub creating route guides for cyclists to putting on the local race Best of Both."} skills={"Adobe Premiere Pro & Photoshop | Content Creation"}/>
-      </div>
-      <div className="skills">
+      </div> */}
+
+      {/* <div className="skills">
         <h3>Dev</h3>
         <h3>Design</h3>
         <h3>eCommerce</h3>
-      </div>
-      <div className="project1">
-        <LandingImage image={wallpaper}/>
-      </div>
+      </div> */}
+
       <div className="project2">
         <LandingImage image={wallpaper}/>
       </div>
