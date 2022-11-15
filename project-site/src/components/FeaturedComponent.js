@@ -1,6 +1,8 @@
 import crow from '../images/crow.png';
 import './FeaturedComponent.css';
 
+import React from 'react';
+
 const FeaturedComponent = ({ image, title, subtitle, skills }) => {
   return ( 
     <div className="gallery">

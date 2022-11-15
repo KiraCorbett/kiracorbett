@@ -9,14 +9,15 @@ import './Home.css'
 import LandingImage from './components/LandingImage';
 import FeaturedComponent from './components/FeaturedComponent';
 
-import { Image, StyleSheet } from 'react-native';
+import React from 'react';
+import Button from 'react-bootstrap/Button';
 
-const styles = StyleSheet.create({
-  imageStyle: {
-    width: 700,
-    height: 400,
-  }
-})
+// const styles = StyleSheet.create({
+//   imageStyle: {
+//     width: 700,
+//     height: 400,
+//   }
+// })
 
 
 const Home = () => {
@@ -34,7 +35,9 @@ const Home = () => {
           </div>
           <div className="project1-info">
             <p className="p1">Built by students, for students, Synthesis is an open source simulator used to design, test, and experiment with 3D CAD models.</p>
-            <p className="p2">BUTTON TO WEBSITE</p>
+            <Button href="http://synthesis.autodesk.com" variant="light" className="btn-light">
+              Synthesis Website
+            </Button>
             <p className="p3">C# | Python | Unity | UX | Project Management</p>
           </div>
         </div>

@@ -1,5 +1,7 @@
 import './LandingImage.css';
 
+import React from 'react';
+
 const LandingImage = ({ image, left, mid, right }) => {
   return (
     <div className="elements" style={{ backgroundImage:`url(${image})` } }>
