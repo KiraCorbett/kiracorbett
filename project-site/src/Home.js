@@ -8,6 +8,7 @@ import wallpaper from './images/wallpaper.jpg';
 import './Home.css'
 import LandingImage from './components/LandingImage';
 import FeaturedComponent from './components/FeaturedComponent';
+import Panel from './components/Panel';
 
 import React from 'react';
 import Button from 'react-bootstrap/Button';
@@ -28,7 +29,8 @@ const Home = () => {
       <div className="projects">
         <h1>Featured Projects</h1>
           
-        <div className="project1">
+        <Panel heading={"Synthesis: An Autodesk Technology"} video={"https://www.youtube.com/embed/MEW_JCmHTo0"} description={"Built by students, for students, Synthesis is an open source simulator used to design, test, and experiment with 3D CAD models."} link={"http://synthesis.autodesk.com"} btnTitle={"Synthesis Website"} skills={"C# | Python | Unity | UX | Project Management"} />
+        {/* <div className="project1">
           <h3>Synthesis: An Autodesk Technology</h3>
           <div className="project1-video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/MEW_JCmHTo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -40,12 +42,11 @@ const Home = () => {
             </Button>
             <p className="p3">C# | Python | Unity | UX | Project Management</p>
           </div>
+        </div> */}
+
         </div>
 
-      </div>
-
         {/* <div>
-        <FeaturedComponent image={robots} title={"Synthesis: An Autodesk Technology"} subtitle={"Built by students, for students, Synthesis is an open source simulator used to design, test, and experiment with 3D CAD models."} skills={"C# | Python | Unity | UX | Project Management"}/>
         <FeaturedComponent image={rhizome} title={"Rhizome: Towards and Information Centric OS Shell"} subtitle={"Rhizome uses different interactions than traditional desktop systems like WIMP. Results indicate people were 60% more efficient on average."} skills={"Flutter SDK | Dart | User Research | Human-Computer Interaction"}/>
         <FeaturedComponent image={crow} title={"Entrepreneurship"} subtitle={"Starting my first eCommerce at age 12 to working at a non-profit, Dirty Freehub creating route guides for cyclists to putting on the local race Best of Both."} skills={"Adobe Premiere Pro & Photoshop | Content Creation"}/>
       </div> */}
@@ -56,7 +57,7 @@ const Home = () => {
         <h3>eCommerce</h3>
       </div> */}
 
-      <div className="project2">
+      {/* <div className="project2">
         <LandingImage image={wallpaper}/>
       </div>
       <div className="project3">
@@ -68,10 +69,10 @@ const Home = () => {
         <FeaturedComponent image={gbwBike} title="National Runner-Up Aspirations in Computing" subtitle={"National Center for Women in Information Technology"} skills={"2019"}/>
         <FeaturedComponent image={gbwBike} title="Scholar" subtitle={"Grace Hopper Celebration"} skills={"2019"}/>
         <FeaturedComponent image={gbwBike} title="Aspirations in Computing" subtitle={"National Center for Women in Information Technology"} skills={"2016 | 2017 | 2018 | 2019"}/>
-      </div>
-      <div className="about">
+      </div> */}
+      {/* <div className="about">
         <p>Some lorem ipsum text for now because that works. Lorem ipsum.</p>
-      </div>
+      </div> */}
     </div>
   )
 }
