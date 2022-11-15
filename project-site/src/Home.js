@@ -13,14 +13,6 @@ import Panel from './components/Panel';
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 
-// const styles = StyleSheet.create({
-//   imageStyle: {
-//     width: 700,
-//     height: 400,
-//   }
-// })
-
-
 const Home = () => {
   return (
     <div className="home">
@@ -29,20 +21,9 @@ const Home = () => {
       <div className="projects">
         <h1>Featured Projects</h1>
           
-        <Panel heading={"Synthesis: An Autodesk Technology"} video={"https://www.youtube.com/embed/MEW_JCmHTo0"} description={"Built by students, for students, Synthesis is an open source simulator used to design, test, and experiment with 3D CAD models."} link={"http://synthesis.autodesk.com"} btnTitle={"Synthesis Website"} skills={"C# | Python | Unity | UX | Project Management"} />
-        {/* <div className="project1">
-          <h3>Synthesis: An Autodesk Technology</h3>
-          <div className="project1-video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/MEW_JCmHTo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <div className="project1-info">
-            <p className="p1">Built by students, for students, Synthesis is an open source simulator used to design, test, and experiment with 3D CAD models.</p>
-            <Button href="http://synthesis.autodesk.com" variant="light" className="btn-light">
-              Synthesis Website
-            </Button>
-            <p className="p3">C# | Python | Unity | UX | Project Management</p>
-          </div>
-        </div> */}
+          <Panel heading={"Synthesis: An Autodesk Technology"} video={"https://www.youtube.com/embed/MEW_JCmHTo0"} description={"Built by students, for students, Synthesis is an open source simulator used to design, test, and experiment with 3D CAD models."} link={"http://synthesis.autodesk.com"} btnTitle={"Synthesis Website"} skills={"C# | Python | Unity | UX | Project Management"} />
+
+          <Panel heading={"Rhizome: Towards and Information Centric OS Shell"} image={rhizome} description={"Rhizome is an information-centric model that uses different interaction methods than traditional desktop systems to measure the cognitive load each OS shell has on a its users. The results indicate that people were 60% more efficient on average in completing their task using Rhizome instead of a traditional WIMP model."} link={"https://ir.library.oregonstate.edu/concern/honors_college_theses/3t945z87r"} btnTitle={"Oregon State University Thesis"} skills={"Flutter SDK | Dart | User Research | Human-Computer Interaction"} />
 
         </div>
 
