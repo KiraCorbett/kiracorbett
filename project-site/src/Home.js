@@ -1,12 +1,8 @@
-import robots from './images/robots.png';
 import rhizome from './images/rhizome.jpg';
 import crow from './images/crow.png';
-import background from './images/background.jpg';
 import fractals from './images/fractals.jpg';
-import smoke from './images/smoke.png';
-import abstract from './images/abstract.jpg';
-import dark from './images/dark.png';
-import divider from './images/divider.jpg';
+import linkedin from './images/linkedin.png';
+import github from './images/Octocat.png';
 
 import './Home.css'
 import LandingImage from './components/LandingImage';
@@ -18,6 +14,11 @@ const Home = () => {
   return (
     <div className="home">
       <LandingImage image={fractals} left={"Design"} mid={"HCI Researcher"} right={"Developer"}/>
+
+      <div className="socials">
+        <a href="https://www.linkedin.com/in/kira-corbett/" target="_blank"><img src={linkedin} /></a>
+        <a href="https://github.com/KiraCorbett" target="_blank"><img src={github} /></a>
+      </div>
 
       <div className="projects">
         <h1>Featured Projects</h1>

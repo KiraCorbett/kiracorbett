@@ -3,6 +3,16 @@ h1, h3, p {
   padding: 20px;
 }
 
+.socials img {
+  justify-content: center;
+  display: inline;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 25px;
+  width: 40px;
+  height: 40px;
+}
+
 /* .project1 {
   margin-bottom: 50px;
   padding-bottom: 50px;
