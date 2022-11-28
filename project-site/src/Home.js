@@ -6,6 +6,7 @@ import fractals from './images/fractals.jpg';
 import smoke from './images/smoke.png';
 import abstract from './images/abstract.jpg';
 import dark from './images/dark.png';
+import divider from './images/divider.jpg';
 
 import './Home.css'
 import LandingImage from './components/LandingImage';

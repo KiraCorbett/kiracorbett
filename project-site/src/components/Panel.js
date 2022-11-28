@@ -3,7 +3,7 @@ import './Panel.css';
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 
-const Panel = ({ heading, video, image, description, link, btnTitle, skills }) => {
+const Panel = ({ heading, video, image, description, link, btnTitle, skills, color }) => {
   const isImage = image;
 
   return (
