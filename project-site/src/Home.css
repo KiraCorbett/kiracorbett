@@ -13,6 +13,18 @@ h1, h3, p {
   height: 35px;
 }
 
+.crow img {
+  justify-content: center;
+  width: 20%;
+  height: 60%;
+  padding: 50px;
+}
+
+.design img {
+  justify-content: center;
+  padding: 50px;
+}
+
 /* .project1 {
   margin-bottom: 50px;
   padding-bottom: 50px;
