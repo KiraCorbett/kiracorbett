@@ -25,6 +25,10 @@ h1, h3, p {
   padding: 50px;
 }
 
+.contact p {
+  display: inline-block;
+}
+
 /* .project1 {
   margin-bottom: 50px;
   padding-bottom: 50px;
