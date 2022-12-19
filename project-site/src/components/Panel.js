@@ -10,7 +10,7 @@ const Panel = ({ heading, video, image, description, link, btnTitle, skills, col
     <div className="projects">
       <div className="project1">
         <h3>{heading}</h3>
-        <div className="project1-video">
+        <div className="project1-media">
           {
             isImage && <img src={image} />
           }
