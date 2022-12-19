@@ -2,9 +2,9 @@
   margin-bottom: 50px;
   padding-bottom: 50px;
   contain: content;
-  border-bottom-color: #DCD5FF;
-  border-style: solid;
-  border-width: 1px;
+  /* border-bottom-color: #DCD5FF; */
+  /* border-style: solid;
+  border-width: 1px; */
   /* background-color: rgb(30, 30, 51); */
   /* background-image: url("./images/background.jpg"); */
 }

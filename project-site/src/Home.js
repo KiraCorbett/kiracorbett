@@ -3,6 +3,8 @@ import crow from './images/crow.png';
 import gravel from './images/gravel.jpg';
 import bob from './images/best-of-both.jpg';
 import gbw from './images/gbw-bike.jpg';
+import content from './images/content.png';
+import team from './images/team-up.png';
 import dark from './images/dark.png';
 import wellsaver from './images/wellsaver.png'
 import bsocial from './images/bob-social.png';
@@ -40,8 +42,8 @@ const Home = () => {
 
         <div>
           <div>
-            <LandingTitle image={dark} mid={"Design"} />
-            <h1>Product Design</h1>
+            <LandingTitle image={fractals} mid={"Design"} />
+            {/* <h1>Product Design</h1> */}
             <FeaturedComponent image={mint} />
             <FeaturedComponent image={cbd} />
             <FeaturedComponent image={tropical} />
@@ -54,10 +56,10 @@ const Home = () => {
             <img src={crow} className="crow"></img>
           </div> */}
 
-          <div className="design">
+          {/* <div className="design">
             <h1>Content Creation</h1>
-            <img src={bsocial}></img>
-          </div>
+            <img src={content}></img>
+          </div> */}
 
           {/* <FeaturedComponent image={gravel} title="Dirty Freehub Gravel Cycling" subtitle="Technologies Engineer and Content Creator" skills={"Website | Video Editing | Podcasting"}/>
           <FeaturedComponent image={bob} title="Best of Both Bike Race" subtitle="Content Creator & Race Planning" skills={"Video Editing | Social Media"}/>
@@ -65,13 +67,13 @@ const Home = () => {
         </div>
 
         <div>
-          <LandingTitle image={dark} mid={"HCI Research"}/>
+          <LandingTitle image={fractals} mid={"HCI Research"}/>
 
           <Panel heading={"Rhizome: Towards and Information Centric OS Shell"} image={rhizome} description={"Rhizome is an information-centric model that uses different interaction methods than traditional desktop systems to measure the cognitive load each OS shell has on a its users. The results indicate that people were 60% more efficient on average in completing their task using Rhizome instead of a traditional WIMP model."} link={"https://ir.library.oregonstate.edu/concern/honors_college_theses/3t945z87r"} btnTitle={"Oregon State University Thesis"} skills={"Flutter SDK | Dart | User Research | Human-Computer Interaction"} />
         </div>
 
         <div className="contact">
-          <LandingTitle image={dark} mid={"Kira Corbett"}/>
+          <LandingTitle image={fractals} mid={"Kira Corbett"}/>
           <p>Email: kiracorbett00@gmail.com</p>
           <p>GitHub: @KiraCorbett</p>
         </div>
