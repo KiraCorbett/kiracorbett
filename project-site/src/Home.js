@@ -3,6 +3,7 @@ import crow from './images/crow.png';
 import gravel from './images/gravel.jpg';
 import bob from './images/best-of-both.jpg';
 import gbw from './images/gbw-bike.jpg';
+import dark from './images/dark.png';
 import wellsaver from './images/wellsaver.png'
 import bsocial from './images/bob-social.png';
 import cbd from './images/cool-cream.jpg';
@@ -14,6 +15,7 @@ import github from './images/Octocat.png';
 
 import './Home.css'
 import LandingImage from './components/LandingImage';
+import LandingTitle from './components/LandingTitle';
 import Panel from './components/Panel';
 import FeaturedComponent from './components/FeaturedComponent';
 
@@ -38,7 +40,7 @@ const Home = () => {
 
         <div>
           <div>
-            <LandingImage image={fractals} mid={"Design"} />
+            <LandingTitle image={dark} mid={"Design"} />
             <h1>Product Design</h1>
             <FeaturedComponent image={mint} />
             <FeaturedComponent image={cbd} />
@@ -63,13 +65,13 @@ const Home = () => {
         </div>
 
         <div>
-          <LandingImage image={fractals} mid={"HCI Research"}/>
+          <LandingTitle image={dark} mid={"HCI Research"}/>
 
           <Panel heading={"Rhizome: Towards and Information Centric OS Shell"} image={rhizome} description={"Rhizome is an information-centric model that uses different interaction methods than traditional desktop systems to measure the cognitive load each OS shell has on a its users. The results indicate that people were 60% more efficient on average in completing their task using Rhizome instead of a traditional WIMP model."} link={"https://ir.library.oregonstate.edu/concern/honors_college_theses/3t945z87r"} btnTitle={"Oregon State University Thesis"} skills={"Flutter SDK | Dart | User Research | Human-Computer Interaction"} />
         </div>
 
         <div className="contact">
-          <LandingImage image={fractals} mid={"Kira Corbett"}/>
+          <LandingTitle image={dark} mid={"Kira Corbett"}/>
           <p>Email: kiracorbett00@gmail.com</p>
           <p>GitHub: @KiraCorbett</p>
         </div>

@@ -1,0 +1,12 @@
+.title-elements {
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.title-elements h1 {
+  margin: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: white;
+}
