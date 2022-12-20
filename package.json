@@ -1,6 +1,6 @@
 {
-  "name": "project-site",
-  "homepage": "https://kiracorbett.github.io/kiracorbett/",
+  "name": "kiracorbett",
+  "homepage": "https://kiracorbett.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
