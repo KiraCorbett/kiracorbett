@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/bob-social.06d90bed.png"
   },
   {
-    "revision": "881ac5e515c0a489b13479253c1f21ad",
+    "revision": "b2dee6adddec05fcc1356dbd26182b57",
     "url": "/index.html"
   }
 ];
