@@ -1,72 +1,11 @@
-h1, h3, p {
-  color: #ffff;
-  padding: 20px;
-}
-
-.socials img {
-  justify-content: center;
-  display: inline;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 25px;
-  width: 35px;
-  height: 35px;
-}
-
-.crow img {
-  justify-content: center;
-  width: 20%;
-  height: 60%;
-  padding: 50px;
-}
-
-.design img {
-  justify-content: center;
-  padding: 50px;
-}
-
-.contact p {
-  display: inline-block;
-}
-
-/* .project1 {
-  margin-bottom: 50px;
-  padding-bottom: 50px;
-  contain: content;
-  background-color: rgb(30, 30, 51);
-}
-
-.project1-video {
-  float: left;
-  margin: auto 50px;
-}
-
-.project1-info {
-  width: 560px;
-  height: auto;
+.container {
+  width: 100%;
+  height: 93vh;
   position: relative;
-  float: right;
-  margin: 40px;
+  background: url('/images/flying.jpeg') no-repeat center center/cover;
 }
 
-.project1-info p1 {
-  position: absolute;
+.container h1 {
+  color: black;
+  position: relative;
 }
-
-.project-info p2, p3 {
-  position: absolute;
-} */
-
-/* .skills h3 {
-  display: inline-block;
-  text-align: center;
-  margin: 20px;
-}
-
-.awards, .skills {
-  display: inline-block;
-}
-
-.about {
-  display: block;
-} */

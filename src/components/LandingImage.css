@@ -15,3 +15,10 @@
   padding-bottom: 150px;
   color: white;
 }
+
+.elements img {
+  width: 170px;
+  transform: translate(-500%, -50%);
+  display: absolute;
+  padding-top: 15vh;
+}
