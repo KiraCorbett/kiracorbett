@@ -5,7 +5,7 @@
   background: url('/images/flying.jpeg') no-repeat center center/cover;
 }
 
-.container h1 {
+.container h1, .container h3 {
   color: black;
   position: relative;
 }

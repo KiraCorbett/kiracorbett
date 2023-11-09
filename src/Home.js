@@ -30,7 +30,8 @@ const Home = () => {
   return (
     <div className="container">
       <img src={flying}></img>
-      <h1>Software Consulting</h1>
+      <h1>Kira Corbett</h1>
+      <h3>Software Consulting</h3>
       {/* <div className="socials">
         <a href="https://www.linkedin.com/in/kira-corbett/" target="_blank"><img src={linkedin} /></a>
         <a href="https://github.com/KiraCorbett" target="_blank"><img src={github} /></a>
