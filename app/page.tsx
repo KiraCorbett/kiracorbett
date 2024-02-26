@@ -4,17 +4,14 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>Hello</p>
-      </div>
-
       <div className={styles.center}>
         <Image
           className={styles.logo}
           src="/flying.jpeg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
+          alt="Crow Logo"
+          layout="responsive"
+          width={3000}
+          height={1500}
           priority
         />
       </div>
